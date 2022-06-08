@@ -15,5 +15,11 @@ footermenu:
 - title: Inicio
   url: ""
 
-- title: Privacy Policy
-  url: "privacy-policy/"
+- title: Términos de uso
+  url: "https://entrenaendatos.teachable.com/p/terms"
+
+- title: Políticas de privacidad
+  url: "https://entrenaendatos.teachable.com/p/privacy"
+
+- title: Impressum
+  url: "https://entrenaendatos.teachable.com/p/impressum"
