@@ -12,9 +12,6 @@ topmenu:
 # Footer Menu
 footermenu:
 
-- title: Inicio
-  url: ""
-
 - title: Términos de uso
   url: "https://entrenaendatos.teachable.com/p/terms"
 

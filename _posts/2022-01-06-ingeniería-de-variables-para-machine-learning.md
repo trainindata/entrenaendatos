@@ -24,11 +24,11 @@ artículo nº 1. Puedes encontrar otros artículos en los siguientes enlaces:
 1.	**Ingeniería de variables para machine learning**
 2.	Imputación de datos faltantes
 3.	Codificación de variables categóricas
-4.	Transformaciones estabilizadoras de varianza
+4.	[Transformaciones estabilizadoras de varianza](https://www.entrenaendatos.com/transformaciones-estabilizadoras-de-varianza/)
 5.	Magnitud y escalamiento de las variables
 6.	Discretización
 7.	Creación de nuevos atributos
-8.  Implementación en Python de técnicas ingeniería de variables
+8.	[Implementación en Python de técnicas ingeniería de variables](https://www.entrenaendatos.com/implementación-en-Python-técnicas-ingeniería-de-variables/)
 
 Si quieres saber más sobre estas y otras técnicas de ingeniería de variables, consulta nuestro curso [Ingeniería de variables 
 para machine learning](https://entrenaendatos.teachable.com/p/ingenieria-de-variables-para-machine-learning).
@@ -145,7 +145,7 @@ individualmente, ya que el algoritmo lo hace automáticamente por nosotros. Esta
 bien con los algoritmos basados en árboles, pero puede afectar al rendimiento de los modelos lineales, ya que distorsiona 
 la distribución de las variables.
 
-#### 1,6 Indicador de dato faltante
+#### 1.6 Indicador de dato faltante
 
 El indicador de dato faltante es una variable binaria que indicar si el valor falta para una determinada observación. 
 Esta variable toma el valor 1 si el valor de la observación falta, o 0 en caso contrario.
