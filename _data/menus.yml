@@ -1,0 +1,19 @@
+# Top Menu
+topmenu:
+
+- title: Inicio
+  url: ""
+
+- title: Nuestros cursos
+  url: https://entrenaendatos.teachable.com/
+  class: "ml-2 btn btn-dark text-white px-3"
+  external: true
+
+# Footer Menu
+footermenu:
+
+- title: Inicio
+  url: ""
+
+- title: Privacy Policy
+  url: "privacy-policy/"
