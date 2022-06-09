@@ -28,7 +28,7 @@ artículo nº 1. Puedes encontrar otros artículos en los siguientes enlaces:
 5.	Magnitud y escalamiento de las variables
 6.	Discretización
 7.	Creación de nuevos atributos
-8.	[Implementación en Python de técnicas ingeniería de variables](https://www.entrenaendatos.com/implementación-en-Python-técnicas-ingeniería-de-variables/)
+8.	[Código en Python de ingeniería de variables](https://www.entrenaendatos.com/implementacion-en-Python-tecnicas-ingenieria-de-variables/)
 
 Si quieres saber más sobre estas y otras técnicas de ingeniería de variables, consulta nuestro curso [Ingeniería de variables 
 para machine learning](https://entrenaendatos.teachable.com/p/ingenieria-de-variables-para-machine-learning).

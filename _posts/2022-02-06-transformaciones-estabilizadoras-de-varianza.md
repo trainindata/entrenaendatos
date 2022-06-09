@@ -14,14 +14,14 @@ Estas son las preguntas que abordaremos en este artículo. Empecemos.
 Este artículo forma parte de una serie de artículos sobre ingeniería de variables para datos tabulares. Estás leyendo 
 el artículo nº 4. Puedes encontrar otros artículos en los siguientes enlaces:
 
-1.	[Ingeniería de variables para machine learning](https://www.entrenaendatos.com/ingenier%C3%ADa-de-variables-para-machine-learning/)
+1.	[Ingeniería de variables para machine learning](https://www.entrenaendatos.com/ingenieria-de-variables-para-machine-learning/)
 2.	Imputación de datos faltantes
 3.	Codificación de variables categóricas
 4.	**Transformaciones estabilizadoras de varianza**
 5.	Magnitud y escalamiento de las variables
 6.	Discretización
 7.	Creación de nuevos atributos
-8.	[Implementación en Python de técnicas ingeniería de variables](https://www.entrenaendatos.com/implementación-en-Python-técnicas-ingeniería-de-variables/)
+8.	[Código en Python de ingeniería de variables](https://www.entrenaendatos.com/implementacion-en-Python-tecnicas-ingenieria-de-variables/)
 
 Si quieres saber más sobre estas y otras técnicas de ingeniería de variables, consulta nuestro curso [Ingeniería de variables 
 para machine learning](https://entrenaendatos.teachable.com/p/ingenieria-de-variables-para-machine-learning).
@@ -81,10 +81,6 @@ de Poisson, donde la varianza de la variable es igual a la media. Por lo tanto, 
 varianza. La transformación de las variables tiene como objetivo obtener valores, tales que su varianza sea independiente 
 de su media. Por ello se refieren como “transformaciones estabilizadoras de la varianza”.
  
-Distribución de Poisson (https://commons.wikimedia.org/wiki/File:Poisson_pmf.svg):
-
-![walking]({{ site.baseurl }}/assets/images/Poisson_pmf.svg)
-
 En los siguientes párrafos, discutiremos las siguientes transformaciones estabilizadoras de la varianza:
 
 * Logaritmo
@@ -357,8 +353,8 @@ train_transformed = boxcox.transform(X_train)
 test_tranformed = boxcox.transform(X_test)
 ```
 
-Hay diferencias entre las implementaciones de scikit-learn y Feature-eng
-ía de variables](https://www.entrenaendatos.com/implementación-en-Python-técnicas-ingeniería-de-variables/)
+Hay diferencias entre las implementaciones de scikit-learn y Feature-engine que discutimos
+en este otro articulo: [Código en Python de ingeniería de variables](https://www.entrenaendatos.com/implementacion-en-Python-tecnicas-ingenieria-de-variables/)
 
 También destaco las diferencias entre Numpy, scipy.stats, Scikit-learn y Feature engine en mi 
 [curso online](https://entrenaendatos.teachable.com/p/ingenieria-de-variables-para-machine-learning).
